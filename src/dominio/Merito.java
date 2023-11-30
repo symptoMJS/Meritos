@@ -9,15 +9,14 @@ public abstract class Merito{
 		this.titulo = titulo;
 	}
 	
-	public void setTitulo(String titulo)
-	{
-		this.titulo = titulo;
-	}
+	public String getTitulo() {
+        return titulo;
+    	}
 
-	public String getTitulo()
-	{
-		return titulo;
-	}
+    	public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    	}
+ 
 	
 	public abstract double valorar();
 }
