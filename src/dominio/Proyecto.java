@@ -14,4 +14,14 @@ public class Proyecto extends Merito {
 	{
 		return financiacion/1000000;
 	}
+
+	public double getFinanciacion() 
+	{
+        return financiacion;
+	}
+
+    	public void setFinanciacion(double financiacion) 
+	{
+        this.financiacion = financiacion;
+    	}
 }
